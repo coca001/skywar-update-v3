@@ -277,6 +277,16 @@ end)
 Player.Character.Humanoid.WalkSpeed = getgenv().WalkSpeedValue;
 end)
 
+  OtherSection:NewButton("Axe mesh", "Axe mesh", function()
+  local playerName = game.Players.LocalPlayer.Name
+	    game.Workspace:FindFirstChild(playerName).Axe.Handle.Mesh:Destroy()
+    end)
+
+OtherSection:NewButton("Bow mesh", "Bow mesh", function()
+  local playerName = game.Players.LocalPlayer.Name
+	    game.Workspace:FindFirstChild(playerName).Bow.Handle.Mesh:Destroy()
+    end)
+
 --OP
 local OP = Window:NewTab("OP")
 local OPSection = OP:NewSection("OP")
