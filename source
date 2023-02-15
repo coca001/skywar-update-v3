@@ -295,5 +295,19 @@ OPSection:NewButton("Kill aura", "Matar a todos", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/coca001/kill-aura-pro/main/source"))()
 end)
 
+OPSection:NewButton("Sky destroy", "destruir", function()
+game.Lighting.Sky:Destroy()
+end)
+
+OPSection:NewButton("Sky destroy", "destruir", function()
+local lighting = game:GetService("Lighting")
+
+wait(15)
+lighting.ClockTime = 6
+
+wait(10)
+lighting.ClockTime = 20
+end)
+
 --extras on run
 print ("coca on top") 
