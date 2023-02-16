@@ -299,7 +299,7 @@ OPSection:NewButton("Sky destroy", "destruir", function()
 game.Lighting.Sky:Destroy()
 end)
 
-OPSection:NewButton("Sky destroy", "destruir", function()
+OPSection:NewButton("Sky galaxy", "galaxy", function()
 local lighting = game:GetService("Lighting")
 
 wait(15)
