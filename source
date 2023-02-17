@@ -310,6 +310,7 @@ end)
 
 OPSection:NewButton("korblox", "korblox", function()
 workspace:FindFirstChild("Right Leg").Name = "e"
+end)
 
 OPSection:NewButton("armor troll", "armor troll", function()
 local playerName = game.Players.LocalPlayer.Name
