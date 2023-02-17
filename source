@@ -316,5 +316,9 @@ rightLeg = character:FindFirstChild("Right Leg")
 if rightLeg then rightLeg:Destroy() end
 end)
 
+OPSection:NewButton("Armor", "usar cuando pulses Troll Armor", function()
+game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-11.26, 263.52, 61.06))
+end)
+
 --extras on run
 print ("coca on top") 
