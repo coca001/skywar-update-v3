@@ -308,14 +308,13 @@ wait(10)
 lighting.ClockTime = 20
 end)
 
-OPSection:NewButton("korblox", "korblox", function()
-workspace:FindFirstChild("Right Leg").Name = "e"
+OPSection:NewButton("Armor troll", "Armor", function()
+character = game:GetService("Players").LocalPlayer.Character
+
+--R6 Rigs
+rightLeg = character:FindFirstChild("Right Leg")
+if rightLeg then rightLeg:Destroy() end
 end)
 
-OPSection:NewButton("armor troll", "armor troll", function()
-local playerName = game.Players.LocalPlayer.Name
-	    game.Workspace:FindFirstChild(playerName).e:Destroy()
-    end)
-    
 --extras on run
 print ("coca on top") 
