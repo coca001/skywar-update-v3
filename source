@@ -301,7 +301,6 @@ end)
 
 OPSection:NewButton("Sky galaxy", "galaxy", function()
 local lighting = game:GetService("Lighting")
-
 wait(15)
 lighting.ClockTime = 6
 
@@ -309,5 +308,13 @@ wait(10)
 lighting.ClockTime = 20
 end)
 
+OPSection:NewButton("korblox", "korblox", function()
+workspace:FindFirstChild("Right Leg").Name = "e"
+
+OPSection:NewButton("armor troll", "armor troll", function()
+local playerName = game.Players.LocalPlayer.Name
+	    game.Workspace:FindFirstChild(playerName).e:Destroy()
+    end)
+    
 --extras on run
 print ("coca on top") 
