@@ -267,8 +267,8 @@ game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents")
    OtherSection:NewButton("destroy sword animation", "eliminar", function()
 local playerName = game.Players.LocalPlayer.Name
 	    game.Workspace:FindFirstChild(playerName).Sword.LocalSwordAnimation:Destroy()
-    end)
-
+	 end)
+	
 OtherSection:NewButton("speed", "skywars", function()
  getgenv().WalkSpeedValue = 29; -- Cambia el 100 por el valor que quieras
 local Player = game:service'Players'.LocalPlayer;
